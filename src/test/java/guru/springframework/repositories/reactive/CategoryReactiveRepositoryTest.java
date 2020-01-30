@@ -44,7 +44,6 @@ public class CategoryReactiveRepositoryTest {
 
         Category fetchedCat = categoryReactiveRepository.findByDescription("Foo").block();
 
-
         assertNotNull(fetchedCat.getId());
     }
 }
