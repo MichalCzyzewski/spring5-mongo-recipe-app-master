@@ -18,7 +18,7 @@ import static org.mockito.Mockito.when;
  * Created by jt on 8/29/17.
  */
 
-public class RouterFunctionTest {
+public class  RouterFunctionTest {
 
     WebTestClient webTestClient;
 
